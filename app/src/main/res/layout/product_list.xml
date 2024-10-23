@@ -7,7 +7,9 @@
     android:layout_marginTop="10dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="10dp"
-    app:cardMaxElevation="10dp">
+    app:cardMaxElevation="10dp"
+    android:background="#49E9DA"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -33,9 +35,10 @@
         android:id="@+id/nameTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:text="Name:"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
+        android:background="#E91E63"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_marginHorizontal="10dp"
@@ -48,8 +51,9 @@
         android:id="@+id/productPriceTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="$Price"
+        android:text="Price$:"
         android:textSize="20sp"
+        android:background="#E91E63"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -62,7 +66,8 @@
         android:id="@+id/productDescriptionTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="Description:"
+        android:background="#E91E63"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="20sp"
